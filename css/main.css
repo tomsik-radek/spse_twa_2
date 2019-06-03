@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(240, 248, 255);
+}
+
+.main {
+    max-width: 768px;
+    min-width: 768px;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 768px;
+    margin: 0 auto;
+    margin-top: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.200);
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 32px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: rgb(219, 238, 255);
+}
+
+.selectTable {
+    width: 100;
+    margin: 0 auto;
+}
+.contentTable {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    border: solid 1px rgba(0, 0, 0, 0.200);
+}
+
+#errortext1 {
+    text-align: center;
+}
+
+th {
+    line-height: 48px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.200);
+    font-size: 22;
+}
+
+td {
+    line-height: 24px;
+}
+
+.selectWidth {
+    width: 166px;
+}
+
+.submitWidth {
+    width: 110px;
+}
+
